@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import DialogDemo from './dialog/page';
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       <i>PLAYGROUND</i>&nbsp;PLAYGROUND
     </div>
     <div>
-      <code>test-component-goes-here</code>
+      <DialogDemo/>
     </div>
     <div className='text-xs'>
       <i>some footer (to keep the middle div in flex-col centered)</i>
